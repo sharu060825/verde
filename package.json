@@ -1,0 +1,16 @@
+{
+  "name": "expense-tracker-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "corepack pnpm -r --parallel dev",
+    "dev:frontend": "corepack pnpm --filter ./apps/frontend dev",
+    "dev:backend": "corepack pnpm --filter ./apps/backend dev",
+    "dev:ai": "corepack pnpm --filter ./apps/ai dev",
+    "build": "corepack pnpm --filter ./apps/frontend build && corepack pnpm --filter ./apps/backend build && corepack pnpm --filter ./apps/ai build",
+    "lint": "corepack pnpm --filter ./apps/frontend lint && corepack pnpm --filter ./apps/backend lint && corepack pnpm --filter ./apps/ai lint"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
