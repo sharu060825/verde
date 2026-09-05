@@ -1,4 +1,4 @@
-# Ledger AI — Smart Personal Finance & Editorial Expense Tracker
+# verde — Smart Personal Finance & Editorial Expense Tracker
 
 An editorial, full-stack personal finance application with real-time financial tracking, budget caps, multi-currency support, and a grounded **Ink Spider** AI Financial Companion living inside the ledger.
 
